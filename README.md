@@ -1,5 +1,7 @@
 # EcoTrace
 
+Live website: [EcoTrace](https://anitamanokore112.github.io/ecotrace/)
+
 A responsive, ocean-inspired landing website for an early-stage environmental accountability solution with a working prototype. Built with React, TypeScript, Vite, and Tailwind CSS 4. No backend, account, API keys, paid services, or custom domain required. All assets are local or inline; there are no remote fonts or media dependencies.
 
 ## Run locally
@@ -45,6 +47,7 @@ The website uses anchor navigation, so no server rewrite rules or SPA route fall
 - Metadata: `index.html`; icon: `public/favicon.svg`.
 - The evidence, incident, and company views are explicitly illustrative. They do not display real investigations or persist data. No customers, partnerships, endorsements, or environmental impact statistics are claimed.
 - The video section is an honest “Coming soon” placeholder, not a playable video. When a real demo is ready, place an MP4 in `public/` and replace the placeholder with an accessible `<video controls>` element. Use `import.meta.env.BASE_URL + 'demo.mp4'` for its source, and add captions and a transcript.
-- No contact details were supplied; navigation links point to sections on this page. Add a real contact destination only when available.
+- The footer links to the LinkedIn profile supplied by Anita S. Manokore.
 
-This deliverable configures deployment; it has not been pushed to a GitHub account or published. No MIT Solve affiliation or endorsement is implied.
+Hosted on GitHub Pages with automatic deployment from main. No MIT Solve affiliation or endorsement is implied.
+
